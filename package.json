@@ -1,0 +1,29 @@
+{
+  "name": "codewars",
+  "version": "1.0.0",
+  "description": "Practicing Algorithm",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm test",
+    "build": "tsc",
+    "test": "./node_modules/.bin/mocha dist/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexanderASH/CodeWars.git"
+  },
+  "author": "Alexander Sanchez Herbas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexanderASH/CodeWars/issues"
+  },
+  "homepage": "https://github.com/AlexanderASH/CodeWars#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.18",
+    "@types/mocha": "^8.2.2"
+  }
+}
